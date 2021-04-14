@@ -1,5 +1,7 @@
 /**
- * THIS IS FOR THE FOLLOWER
+ * THIS IS FOR SIMONS FOLLOWER
+ * 
+ * Playing sound requires speaker or V2 Microbit!
  */
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 1) {
@@ -123,6 +125,3 @@ radio.onReceivedNumber(function (receivedNumber) {
 basic.showString("SIMON SAYS")
 music.startMelody(music.builtInMelody(Melodies.Prelude), MelodyOptions.Once)
 radio.setGroup(1)
-basic.forever(function () {
-	
-})
